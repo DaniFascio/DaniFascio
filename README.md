@@ -1,9 +1,16 @@
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-I'm Daniele and welcome to my profile. I
+I'm Daniele, i'm a 19 year-old boy from Rome, in Italy.
+&nbsp;
+
+Welcome to my GitHub profile!
+
+&nbsp;
+
+![DaniFascio's GitHub stats](https://github-readme-stats.vercel.app/api?username=DaniFascio&show_icons=true&theme=nightowl)
+&nbsp;
 
 <!-- Icons -->
-
 [1.2]: http://i.imgur.com/wWzX9uB.png (twitter icon without padding)
 [2.2]: https://i.imgur.com/IyWghfK.png (LinkedIn icon without padding)
 
@@ -16,8 +23,8 @@ I'm Daniele and welcome to my profile. I
 <!-- <img align="center" src="https://github-readme-stats.vercel.app/api/<CARD_TYPE>/?username=<DaniFascio>&theme=<THEME_NAME>" /> -->
 
 - 🔭 I’m currently working on an e-commerce project in the company where i work
-- 📖 I’m currently learning new things, and always ready to study interesting and intriguing things
-- 👨🏻‍🤝‍👨🏻 If you want to collaborate just send me a message and we can chat or talk maybe with a coffee
+- 📖 Now i'm studying new things and technologies, and always ready to study interesting and intriguing things
+- 👨🏻‍🤝‍👨🏻 If you want to collaborate just send me a message and we can talk about it
     
     
     - 📫 You can find me on [![Twitter][1.2]][1], or on [![LinkedIn][2.2]][2].
@@ -31,9 +38,7 @@ I'm Daniele and welcome to my profile. I
 
 [1]: https://twitter.com/daniele_fasciani
 [2]: https://www.linkedin.com/in/daniele-fasciani/
+&nbsp;
 
-
-
-![DaniFascio's GitHub stats](https://github-readme-stats.vercel.app/api?username=DaniFascio&show_icons=true&theme=nightowl)
-
+   
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DaniFascio&layout=compact)](https://github.com/DaniFascio/github-readme-stats)
