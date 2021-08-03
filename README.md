@@ -27,7 +27,7 @@ Welcome to my GitHub profile!
 - 👨🏻‍🤝‍👨🏻 If you want to collaborate just send me a message and we can talk about it
     
     
-    - 📫 You can find me on [![Twitter][1.2]][1], on [![LinkedIn][2.2]][2], or on [danifascio.sites](https://danifascio)🔗.
+    - 📫 You can find me on [![Twitter][1.2]][1], on [![LinkedIn][2.2]][2], or on [danifascio.sites](https://danifascio.site)🔗.
 
 <!-- Icons -->
 
