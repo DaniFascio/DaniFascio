@@ -27,7 +27,7 @@ Welcome to my GitHub profile!
 - 👨🏻‍🤝‍👨🏻 If you want to collaborate just send me a message and we can talk about it
     
     
-    - 📫 You can find me on [![Twitter][1.2]][1], on [![LinkedIn][2.2]][2], or on [![danifascio.site][]][3].
+    - 📫 You can find me on [![Twitter][1.2]][1], on [![LinkedIn][2.2]][2], or on [danifascio.sites](https://danifascio).
 
 <!-- Icons -->
 
@@ -40,6 +40,5 @@ Welcome to my GitHub profile!
 [2]: https://www.linkedin.com/in/daniele-fasciani/
 &nbsp;
 
-[3]: https://danifascio.site/
    
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DaniFascio&layout=compact)](https://github.com/DaniFascio/github-readme-stats)
