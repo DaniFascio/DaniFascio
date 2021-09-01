@@ -61,8 +61,8 @@
     </div>
   </div>
 
-  <div class="vg-page page-home" id="home" style="background-image: url(img/bg_image_1.jpg)">
-    <!-- Navbar -->
+<div class="vg-page page-home" id="home" style="background-image: url(img/bg_image_1.jpg); background-repeat: no-repeat; background-size: cover;">
+	<!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
       <div class="container">
         <a href="" class="navbar-brand">Hi Everyone!</a>
@@ -114,8 +114,10 @@
             <li><b>Age:</b> 19</li>
             <li><b>Gender:</b> Male</li>
           </ul>
-          <button class="btn btn-theme-outline">Download CV</button>
-        </div>
+		<form method="get" action="download/cv.pdf">
+		   <button class="btn btn-theme-outline" type="submit">Download!</button>
+		</form>
+	</div>
       </div>
     </div>
     <div class="container py-5">
@@ -259,8 +261,28 @@
       </div>
       <h1 class="fw-normal text-center wow fadeInUp">What can i do?</h1>
       <div class="row mt-5">
-
-
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-paint-bucket"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">Web Design</h4>
+              <p>There are many variations of passages of Lorem Ipsum available</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <div class="card card-service wow fadeInUp">
+            <div class="icon">
+              <span class="ti-search"></span>
+            </div>
+            <div class="caption">
+              <h4 class="fg-theme">SEO</h4>
+              <p>There are many variations of passages of Lorem Ipsum available</p>
+            </div>
+          </div>
+        </div>
         <div class="col-md-6 col-lg-4 col-xl-3">
           <div class="card card-service wow fadeInUp">
             <div class="icon">
