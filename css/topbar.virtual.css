@@ -194,7 +194,7 @@
   left: -8px;
   width: 18px;
   height: 18px;
-  background-color: #747474;
+  background-color: #ee83cf7d;
   border: 3px solid #fff;
   border-radius: 50%;
 }
@@ -202,7 +202,7 @@
 .timeline li .title {
   width: 150px;
   padding: 6px 20px;
-  background-color: #747474;
+  background-color: #ee83cf7d;
   color: #fff;
   font-weight: 500;
   border-radius: 30px 0 60px 30px;
@@ -657,6 +657,15 @@
   box-shadow: 0 0 0 2px #6f42c1;
 }
 
+.theme-purple .timeline #li:first-child::before {
+  background-color: #ee83cf7d !important;
+  box-shadow: 0 0 0 2px #ee83cf7d;
+}
+
 .theme-purple .post-grid .post-category {
   color: #6f42c1;
+}
+
+@media only screen and (max-width: 400px) {
+  #hr{margin: 20px !important;}
 }

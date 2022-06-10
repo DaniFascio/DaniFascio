@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:margin-bottom="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,7 +34,7 @@
         text-decoration: none !important;
     }
 </style>
-<body style="background-color:lightgray;" class="theme-purple">
+<body style="background-color:white;" class="theme-purple">
 
 <!-- Back to top button -->
 <div class="btn-back_to_top">
@@ -113,12 +113,12 @@
     <div class="container py-5">
         <div class="row">
             <div class="col-lg-4 py-3">
-                <div class="img-place wow fadeInUp">
-                    <img src="https://i.imgur.com/vaMRM8U.jpg?1" alt="">
+                <div class="img-place wow fadeInUp" style="margin-bottom: 50px;">
+                    <img src="https://i.imgur.com/vaMRM8U.jpg?1">
                 </div>
             </div>
             <div class="col-lg-6 offset-lg-1 wow fadeInRight">
-                <h1 class="fw-light">Daniele Fasciani</h1>
+                <h1 class="fw-light" style="font-family: fantasy; font-style: initial" >Daniele Fasciani</h1>
                 <h5 class="fg-theme mb-3">Java Developer</h5>
                 <p class="text-muted">I'm Daniele, i'm a 19 year-old boy and i started working in this field since 2020.
                     I like studying new technologies and code with friends. If you want to collaborate you can just
@@ -135,7 +135,7 @@
         </div>
     </div>
     <div class="container py-5">
-        <h1 class="text-center fw-normal wow fadeIn">My Skills</h1>
+        <h1 class="text-center fw-normal wow fadeInUp">My Skills</h1>
         <div class="row py-3">
             <div class="col-md-6">
                 <div class="px-lg-3">
@@ -156,7 +156,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="progress-wrapper wow fadeInUp">
+                    <div class="progress-wrapper wow fadeInUp" style="margin-bottom: 50px">
                         <span class="caption">HTML + CSS</span>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="75"
@@ -209,44 +209,7 @@
 
     <div class="container pt-5">
         <div class="row">
-            <div class="col-md-6 wow fadeInRight">
-                <h2 class="fw-normal">Education</h2>
-                <ul class="timeline mt-4 pr-md-5">
-                    <li>
-                        <div class="title">2016 - 2021</div>
-                        <div class="details">
-                            <h5>Diploma of computer expert</h5>
-                            <small class="fg-theme">ITI M. Faraday</small>
-                            <p>I went to this high school and i graduated here in the field of Information Technology.
-                                <br>
-                                Arguments: C++, Java, SQL, PHP, HTML, Relational Database, MySQL, network cabling...
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="title">2016</div>
-                        <div class="details">
-                            <h5>ECDL Base</h5>
-                            <small class="fg-theme">ITI M. Faraday</small>
-                            <p>The compact ECDL Base profile are 4 Base modules to demonstrate your digital literacy.
-                                <br>
-                                1: Spreadsheets; <br> 2: Word Processing; <br> 3: Online Essentials; <br> 4: Computer
-                                Essentials;
-                            </p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="title">2017</div>
-                        <div class="details">
-                            <h5>Cambridge Pet Level (B1)</h5>
-                            <small class="fg-theme">ITI M. Faraday</small>
-                            <p>The B1 Preliminary (PET) is an official intermediate level Cambridge English exam, set at
-                                Level B1 of the Common European Framework of Reference for Languages.</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms">
+            <div class="col-md-6 wow fadeInRight" data-wow-delay="200ms" style="margin-bottom: 35px">
                 <h2 class="fw-normal">Experience</h2>
                 <ul class="timeline mt-4 pr-md-5">
                     <li>
@@ -281,9 +244,48 @@
                         </li> -->
                 </ul>
             </div>
+            <div class="col-md-6 wow fadeInRight">
+                <h2 class="fw-normal">Education</h2>
+                <ul class="timeline mt-4 pr-md-5">
+                    <li id="li">
+                        <div class="title" style="background-color: #ee83cf7d !important;">2016 - 2021</div>
+                        <div class="details">
+                            <h5>Diploma of computer expert</h5>
+                            <small class="fg-theme">ITI M. Faraday</small>
+                            <p>I went to this high school and i graduated here in the field of Information Technology.
+                                <br>
+                                Arguments: C++, Java, SQL, PHP, HTML, Relational Database, MySQL, network cabling...
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">2016</div>
+                        <div class="details">
+                            <h5>ECDL Base</h5>
+                            <small class="fg-theme">ITI M. Faraday</small>
+                            <p>The compact ECDL Base profile are 4 Base modules to demonstrate your digital literacy.
+                                <br>
+                                1: Spreadsheets; <br> 2: Word Processing; <br> 3: Online Essentials; <br> 4: Computer
+                                Essentials;
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="title">2017</div>
+                        <div class="details">
+                            <h5>Cambridge Pet Level (B1)</h5>
+                            <small class="fg-theme">ITI M. Faraday</small>
+                            <p>The B1 Preliminary (PET) is an official intermediate level Cambridge English exam, set at
+                                Level B1 of the Common European Framework of Reference for Languages.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
         </div>
     </div>
 </div>
+<hr style="margin: 100px" id="hr">
 
 <div class="vg-page page-service">
     <div class="container">
