@@ -7,6 +7,8 @@ Welcome to my GitHub profile!
 
 &nbsp;
 
+<img align="center" src="https://i.imgur.com/ggp0YR7.png" height="300px" width="550px"/> 
+
 ![DaniFascio's GitHub stats](https://github-readme-stats.vercel.app/api?username=DaniFascio&show_icons=true&theme=nightowl)
 &nbsp;
 
@@ -19,8 +21,6 @@ Welcome to my GitHub profile!
 [1]: https://twitter.com/daniele_fasciani
 [2]: https://www.linkedin.com/in/daniele-fasciani/
 
-
-<!-- <img align="center" src="https://github-readme-stats.vercel.app/api/<CARD_TYPE>/?username=<DaniFascio>&theme=<THEME_NAME>" /> -->
 
 - 🔭 I’m currently working on an e-commerce project in the company where i work
 - 📖 Now i'm studying new things and technologies, and always ready to study interesting and intriguing things
