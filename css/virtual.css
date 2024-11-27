@@ -128,7 +128,7 @@ a:hover, a:active {
     z-index: 99;
 }
 
-/* 
+/*
     2. Button
 */
 .btn-theme {
@@ -228,8 +228,8 @@ a:hover, a:active {
     color: #888;
     border: 1px solid #ddd;
     -webkit-transition: all .3s;
-       -moz-transition: all .3s;
-            transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
 
 .social .social-link:hover {
@@ -328,7 +328,7 @@ a:hover, a:active {
 }
 
 
-/* 
+/*
     3. Color Scheme
 */
 
@@ -418,7 +418,7 @@ a:hover, a:active {
 
 .bg-dribbble,
 .bg-hover-dribbble:hover {
-    background-color: #6127a1 !important;
+    background-color: #E84C88 !important;
 }
 
 .bg-github,
@@ -428,7 +428,7 @@ a:hover, a:active {
 
 .bg-instagram,
 .bg-hover-instagram:hover {
-    background-color: #471f77 !important;
+    background-color: #DC3472 !important;
 }
 
 .bg-medium,
@@ -456,7 +456,7 @@ a:hover, a:active {
     background-color: #FE0002 !important;
 }
 
-/* 
+/*
     4. Progressbar
 */
 .progress-wrapper {
@@ -486,11 +486,11 @@ a:hover, a:active {
     background-color: #747474;
 }
 
-/* 
+/*
     5. Preloader
 */
 
-/* 
+/*
     6. Pagination
 */
 .page-item:not(:last-child) .page-link {
@@ -518,7 +518,7 @@ a:hover, a:active {
 }
 
 
-/* 
+/*
     7. List style
 */
 .theme-list {
@@ -559,7 +559,7 @@ a:hover, a:active {
 }
 
 /*
- *  8. Navigation 
+ *  8. Navigation
  */
 .sticky {
     top: 0;
@@ -604,7 +604,7 @@ a:hover, a:active {
     }
 }
 
-/* 
+/*
  *  9. Input
  */
 .form-control {
@@ -622,7 +622,7 @@ a:hover, a:active {
 
 .form-control::-webkit-input-placeholder {
     font-weight: 500;
-    color: #9FA2AB; 
+    color: #9FA2AB;
 }
 
 .form-control::-moz-placeholder {
@@ -635,7 +635,7 @@ a:hover, a:active {
     color: #9FA2AB;
 }
 
-/* 
+/*
  *  10. Select
  */
 .vg-select {
@@ -687,66 +687,66 @@ a:hover, a:active {
 
 .reveal-layer-top {
     -webkit-animation-name: anim-effect-1;
-	animation-name: anim-effect-1;
+    animation-name: anim-effect-1;
 }
 
 .reveal-layer-bottom {
     -webkit-animation-name: anim-effect-2;
-	animation-name: anim-effect-2;
+    animation-name: anim-effect-2;
 }
 
 @-webkit-keyframes anim-effect-1 {
-	0% {
-		-webkit-transform: translate3d(0, 0, 0);
-	}
-	35%, 65% {
-		-webkit-transform: translate3d(0, -100%, 0);
-	}
-	100% {
-		-webkit-transform: translate3d(0, -200%, 0);
-	}
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    35%, 65% {
+        -webkit-transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, -200%, 0);
+    }
 }
 
 @keyframes anim-effect-1 {
-	0% {
-		-webkit-transform: translate3d(0, 0, 0);
-		transform: translate3d(0, 0, 0);
-	}
-	35%, 65% {
-		-webkit-transform: translate3d(0, -100%, 0);
-		transform: translate3d(0, -100%, 0);
-	}
-	100% {
-		-webkit-transform: translate3d(0, -200%, 0);
-		transform: translate3d(0, -200%, 0);
-	}
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    35%, 65% {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, -200%, 0);
+        transform: translate3d(0, -200%, 0);
+    }
 }
 
 @-webkit-keyframes anim-effect-2 {
-	0% {
-		-webkit-transform: translate3d(0, 0, 0);
-	}
-	35%, 65% {
-		-webkit-transform: translate3d(0, -100%, 0);
-	}
-	100% {
-		-webkit-transform: translate3d(0, -200%, 0);
-	}
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+    35%, 65% {
+        -webkit-transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, -200%, 0);
+    }
 }
 
 @keyframes anim-effect-2 {
-	0% {
-		-webkit-transform: translate3d(0, 0, 0);
-		transform: translate3d(0, 0, 0);
-	}
-	35%, 65% {
-		-webkit-transform: translate3d(0, -100%, 0);
-		transform: translate3d(0, 100%, 0);
-	}
-	100% {
-		-webkit-transform: translate3d(0, -200%, 0);
-		transform: translate3d(0, 200%, 0);
-	}
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    35%, 65% {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, -200%, 0);
+        transform: translate3d(0, 200%, 0);
+    }
 }
 
 
@@ -843,119 +843,119 @@ a:hover, a:active {
 
 /* OpenGraph Grid */
 .og-grid {
-	position: relative;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	list-style: none;
-	padding: 20px 0;
-	text-align: center;
-	width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
 }
 
 .og-grid li {
-	display: inline-block;
+    display: inline-block;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-	padding: 0 10px;
-	vertical-align: top;
+    padding: 0 10px;
+    vertical-align: top;
     width: 100%;
     max-width: 350px;
     height: 250px;
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .og-grid li > a {
-	position: relative;
-	border: none;
+    position: relative;
+    border: none;
     display: block;
     width: 100%;
-	height: 250px;
+    height: 250px;
 }
 
 .og-grid li > a img {
-	width: auto;
-	height: 100%;
+    width: auto;
+    height: 100%;
 }
 
 .og-grid li.og-expanded > a::after {
-	content: " ";
-	position: absolute;
-	top: auto;
-	left: 50%;
-	border: solid transparent;
-	height: 0;
-	width: 0;
-	pointer-events: none;
-	border-bottom-color: #f0f3f8;
-	border-width: 15px;
-	margin: -20px 0 0 -15px;
+    content: " ";
+    position: absolute;
+    top: auto;
+    left: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    pointer-events: none;
+    border-bottom-color: #f0f3f8;
+    border-width: 15px;
+    margin: -20px 0 0 -15px;
 }
 
 .og-content {
-	display: none;
+    display: none;
 }
 
 .og-expander {
-	position: absolute;
-	background: #f0f3f8;
-	top: auto;
-	left: 0;
-	width: 100%;
-	margin-top: 10px;
-	text-align: left;
-	height: 0;
-	overflow: hidden;
+    position: absolute;
+    background: #f0f3f8;
+    top: auto;
+    left: 0;
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+    height: 0;
+    overflow: hidden;
 }
 
 .og-expander-inner {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 50px 15px;
-	height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 15px;
+    height: 100%;
 }
 
 .og-close {
-	position: absolute;
-	width: 40px;
-	height: 40px;
-	top: 20px;
-	right: 20px;
-	cursor: pointer;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
 }
 
 .og-close::before,
 .og-close::after {
-	content: '';
-	position: absolute;
-	width: 100%;
-	top: 50%;
-	height: 1px;
-	background: #888;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	transform: rotate(45deg);
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    height: 1px;
+    background: #888;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .og-close::after {
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
 .og-close:hover::before,
 .og-close:hover::after {
-	background: #333;
+    background: #333;
 }
 
 .og-fullimg,
 .og-details {
-	width: 100%;
-	max-width: 100%;
-	height: 100%;
-	overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .og-fullimg {
@@ -965,7 +965,7 @@ a:hover, a:active {
 }
 
 .og-fullimg img {
-	max-height: 100%;
+    max-height: 100%;
     max-width: 100%;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
@@ -974,44 +974,44 @@ a:hover, a:active {
 .og-details h2,
 .og-details h3,
 .og-details h4 {
-	font-weight: 400;
+    font-weight: 400;
 }
 
 .og-details p {
-	color: #999;
+    color: #999;
 }
 
 .og-loading {
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	background: #ddd;
-	box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ccc;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -25px 0 0 -25px;
-	-webkit-animation: loader 0.5s infinite ease-in-out both;
-	-moz-animation: loader 0.5s infinite ease-in-out both;
-	animation: loader 0.5s infinite ease-in-out both;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ddd;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    -webkit-animation: loader 0.5s infinite ease-in-out both;
+    -moz-animation: loader 0.5s infinite ease-in-out both;
+    animation: loader 0.5s infinite ease-in-out both;
 }
 
 @-webkit-keyframes loader {
-	0% { background: #ddd; }
-	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+    0% { background: #ddd; }
+    33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
+    66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
 }
 
 @-moz-keyframes loader {
-	0% { background: #ddd; }
-	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+    0% { background: #ddd; }
+    33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
+    66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
 }
 
 @keyframes loader {
-	0% { background: #ddd; }
-	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+    0% { background: #ddd; }
+    33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
+    66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
 }
 
 @media (min-width: 640px) {
@@ -1021,13 +1021,13 @@ a:hover, a:active {
 }
 
 @media (min-width: 768px) {
-	.og-expander-inner {
-		flex-direction: row;
-	}
+    .og-expander-inner {
+        flex-direction: row;
+    }
 
-	.og-fullimg,
-	.og-details {
-		max-width: 50%;
+    .og-fullimg,
+    .og-details {
+        max-width: 50%;
     }
 
     .og-fullimg {
